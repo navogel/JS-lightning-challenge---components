@@ -33,9 +33,9 @@ console.log(breakfastContainer);
 function breakfast(array) {
 	return `
     <div>
-        <h1>${array.name}</h1>
-        <p>Cold? ${array.cold} </p>
-        <p> Calories: ${array.calories}</p>
+        <h1 style="color: blue; text-align: center">${array.name}</h1>
+        <p style="color: aqua; text-align: center">Cold? ${array.cold} </p>
+        <p style="color: red; text-align: center"> Calories: ${array.calories}</p>
     </div>
 
     `;
