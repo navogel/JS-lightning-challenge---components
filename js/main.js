@@ -24,3 +24,5 @@ let eggs = {
 
 //breakfast array of objects
 
+const breakfastArray = [cereal, fruit, eggs]
+
